@@ -1,21 +1,49 @@
+
+
+
 body{
 font-family: "Roboto", sans-serif;
 color: #434455;
 background-color: #FFFFFF;
 }
 
+p, h1, h2, h3, h4, h5, h6{
+    margin: 0;
+    padding: 0;
+}
+
 ul{
     list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
 a{
     text-decoration: none;
 }
 
+button{
+    cursor: pointer;
+} 
+
+address{
+    font-style: normal;
+}
+
+
+.conteiner{
+    width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
+
 /*--head--*/
 
 
 .header {
+    padding-right: 24px;
+    padding-bottom: 24px;
 }
 .header-navigation {
 }
@@ -76,6 +104,8 @@ color: #404bbf;
 
 .hero {
 background: #2e2f42;
+padding-top: 188px;
+    padding-bottom: 292px;
 }
 
 .hero-title {
@@ -85,7 +115,7 @@ font-size: 56px;
 letter-spacing: 0.02em;
 text-align: center;
 color: #fff;
-
+margin-bottom: 48px;
 }
 
 .hero-button {
@@ -110,7 +140,10 @@ background: #404bbf;
 
 
 
-.features {}
+.features {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
 
 .features-title {}
 
@@ -124,6 +157,7 @@ font-size: 20px;
 line-height: 24px; 
 letter-spacing: 0.02em;
 color: #2e2f42;
+margin-bottom: 8px;
 }
 
 .features-lead {
@@ -160,7 +194,9 @@ background-color: #FFFFFF;
 
 .team-item-img {}
 
-.team-subtitle {}
+.team-subtitle {
+    margin-bottom: 8px;
+}
 
 .team-lead {}
 
@@ -176,7 +212,9 @@ background-color: #FFFFFF;
 
 .portfolio-item-img {}
 
-.portfolio-subtitle {}
+.portfolio-subtitle {
+    margin-bottom: 8px;
+}
 
 .portfolio-lead {}
 
@@ -186,6 +224,8 @@ background-color: #FFFFFF;
 
 .footer {
 background: #2e2f42;
+padding-top: 100px;
+padding-bottom: 100px;
 }
 
 .footer-link-logo {
@@ -204,8 +244,10 @@ color: #f4f4fd;
 
 
 .footer-lead {
+margin-top: 16px;
 font-size: 16px;
 line-height: 24px; 
 letter-spacing: 0.02em;
 color: #f4f4fd;
+max-width: 264px;
 }
